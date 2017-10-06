@@ -7,17 +7,7 @@ using Xamarin.Forms;
 
 namespace WeatherApp
 {
-    class Base
-    {
-        public void Method1() { }
-        public void Method2() { }
-    }
 
-    class Derived : Base
-    {
-        public void Method3() { }
-
-    }
     public partial class App : Application
     {
         public App()
