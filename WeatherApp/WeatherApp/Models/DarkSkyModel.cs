@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace WeatherApp.Models
 {
+
     public class DarkSkyModel
     {
-        public float latitude { get; set; }
-        public float longitude { get; set; }
+        //public float latitude { get; set; }
+        //public float longitude { get; set; }
         public string timezone { get; set; }
         public Currently currently { get; set; }
         public Minutely minutely { get; set; }
